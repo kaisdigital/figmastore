@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+	<title>Figure Store</title>
+
+	<link rel="stylesheet" media="screen and (min-width:0px)" href="assets/css/320.css" />
+	<link rel="stylesheet" media="screen and (min-width:470px)" href="assets/css/480.css" />
+	<link rel="stylesheet" media="screen and (min-width:768px)" href="assets/css/768.css" />
+	<link rel="stylesheet" media="screen and (min-width:960px)" href="assets/css/960.css" />
+	<link rel="stylesheet" media="screen and (min-width:1200px)" href="assets/css/1200.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/responsive/slider/sss.js"></script>
+	<link rel="stylesheet" href="assets/responsive/slider/sss.css" type="text/css" media="all">
+	
+
+</head>
+
+<body>
+	<header>
+		<div id="row-info">
+			<div class="container">
+				<div id="redes-sociais">
+						<a href="#" id="icon-google" title="Google Plus"></a>
+						<a href="#" id="icon-twitter" title="Twitter"></a>
+						<a href="#" id="icon-facebook" title="Facebook"></a>
+						<a href="#" id="icon-pinterest" title="Pinterest"></a>
+						<a href="#" id="icon-linkedin" title="Linkedin"></a>
+						<a href="#" id="icon-feeds" title="RSS Feeds"></a>
+				</div>
+				<div class="text-atendimento">
+					<a href="#">CENTRAL DE ATENDIMENTO</a>
+				</div>
+				<div class="text-televendas">
+					Televendas: (19) 3567-2341
+				</div>
+			</div>
+		</div>
+		<div id="row-header-principal">
+			<div class="container">
+				<div class="logo">
+					<a href="index.html"><img src="assets/img/logo.png" alt="Logo"></a>
+				</div>
+				<div class="user-container">
+					<div class="user-account">
+						<img src="assets/img/profile.png" alt="User-Icon">
+						<a href="#">Login</a>
+						<a href="#">Meus pedidos</a>
+					</div>
+					<div class="user-cart">
+						<a href="#">
+							<img src="assets/img/cart.png" alt="Carrinho">
+							<p>2</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="container">
+				
+			<div id="menu">
+				<ul>
+					<li><a href="#" class="active" target="_self">DEPARTAMENTOS</a></li>
+					<li><a href="#" target="_self">PRODUTOS</a></li>
+					<li><a href="#" target="_self">QUEM SOMOS</a></li>
+					<li><a href="#" target="_self">CONTATO</a></li>
+				</ul>
+				<div class="select_menu">
+					<select onchange="location=this.options[this.selectedIndex].value;" class="select">
+						<option value="index.html" selected="selected">MENU</option>
+						<option value="index.html">DEPARTAMENTOS</option>
+						<option value="#">PRODUTOS</option>
+						<option value="#">QUEM SOMOS</option>
+						<option value="#">CONTATO</option>
+					</select>
+				</div>
+			</div>
+			<div id="banner">
+				<h1>Promoções</h1>
+				<div class="slider">
+	        <a href="#"><img src="assets/img/01.jpg" /></a>
+	        <a href="#"><img src="assets/img/02.jpg" /></a>
+	        <a href="#"><img src="assets/img/03.jpg" /></a>
+     	 </div>
+     	 <div class="slider slider-reponsive">
+	        <a href="#"><img src="assets/img/01.jpg" /></a>
+	        <a href="#"><img src="assets/img/02.jpg" /></a>
+	        <a href="#"><img src="assets/img/03.jpg" /></a>
+     	 </div>
+			</div>
+			<div id="news">
+				<h1>Novidades</h1>
+				<div class="box-news">
+					<div class="news-img-01"></div>
+					<div class="news-descript">
+						<div class="descript-wrap">
+							<p class="descript-name">Izuku Midoriya</p>
+							<p class="descript-anime">Boku no hero Academia</p>
+						</div>
+						<a href="#" id="btn-seta">
+							<img src="assets/img/btn-seta.png" alt="Mais informações">
+						</a>
+					</div>
+				</div>
+				<div class="box-news">
+					<div class="news-img-02"></div>
+					<div class="news-descript">
+						<div class="descript-wrap">
+							<p class="descript-name">Saber</p>
+							<p class="descript-anime">Fate/Zero</p>
+						</div>
+					<a href="#" id="btn-seta">
+						<img src="assets/img/btn-seta.png" alt="Mais informações">
+					</a>
+					</div>
+				</div>
+				<div class="box-news">
+					<div class="news-img-03"></div>
+					<div class="news-descript">
+						<div class="descript-wrap">
+							<p class="descript-name">Link</p>
+							<p class="descript-anime">Twilight Princess version</p>
+						</div>
+						<a href="#" id="btn-seta">
+							<img src="assets/img/btn-seta.png" alt="Mais informações">
+						</a>
+					</div>
+				</div>
+				<div class="box-news">
+					<div class="news-img-04"></div>
+					<div class="news-descript">
+						<div class="descript-wrap">
+							<p class="descript-name">Iron Man</p>
+							<p class="descript-anime">Marvel's Character</p>
+						</div>
+						<a href="#" id="btn-seta">
+							<img src="assets/img/btn-seta.png" alt="Mais informações">
+						</a>
+					</div>
+				</div>
+			</div>
+			
+			<div id="rating">
+				<h1>Avaliações</h1>
+				<div class="rating-box-left">
+					<div class="rating-photo">
+						<img src="assets/img/user.png" alt="Usuário">
+					</div>
+					<div class="rating-user">
+						<p class="name">Izaque Latino</p>
+						<p class="date">México - 24/04/17</p>
+						<p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim repellendus optio dolor officia suscipit odio a perspiciatis eligendi aspernatur recusandae? Culpa optio, quae itaque ipsa aut, id porro rerum commodi!</p>
+					</div>
+				</div>
+				<div class="rating-box-right">
+					<div class="rating-photo">
+						<img src="assets/img/user.png" alt="Usuário">
+					</div>
+					<div class="rating-user">
+						<p class="name">Amauri Guihau</p>
+						<p class="date">Araras City - 10/05/17</p>
+						<p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim repellendus optio dolor officia suscipit odio a perspiciatis eligendi aspernatur recusandae? Culpa optio, quae itaque ipsa aut, id porro rerum commodi!</p>
+					</div>
+				</div>
+				<div class="rating-box-left">
+					<div class="rating-photo">
+						<img src="assets/img/user.png" alt="Usuário">
+					</div>
+					<div class="rating-user">
+						<p class="name">Elton Pongilo</p>
+						<p class="date">Santa Barbara - 10/05/17</p>
+						<p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim repellendus optio dolor officia suscipit odio a perspiciatis eligendi aspernatur recusandae? <b>Programação é muito loco!</b></p>
+					</div>
+				</div>
+				<div class="rating-box-right">
+					<div class="rating-photo">
+						<img src="assets/img/user.png" alt="Usuário">
+					</div>
+					<div class="rating-user">
+						<p class="name">Aline Garcia</p>
+						<p class="date">Judas Perdeu a bota - 08/06/16</p>
+						<p class="comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim repellendus optio dolor officia suscipit odio a perspiciatis eligendi aspernatur recusandae? </p>
+					</div>
+				</div>
+			</div>
+			
+			<div id="bg_parceiros">
+	      <a href="#" target="_self"><img src="assets/img/client_1.png" width="90" height="52" alt="Mundo Geek" title="Mundo Geek" border="0"></a>
+	      <a href="#" target="_self"><img src="assets/img/client_2.png" width="120" height="52" alt="Figma" title="Figma" border="0"></a>
+	      <a href="#" target="_self"><img src="assets/img/client_3.png" width="160" height="42" alt="Mercado Livre" title="Mercado Livre" border="0"></a>
+	      <a href="#" target="_self"><img src="assets/img/client_4.png" width="140" height="38" alt="Kreo" title="Kreo" border="0"></a>
+	      <a href="#" target="_self"><img src="assets/img/client_5.png" width="160" height="38" alt="ToyShop" title="ToyShop" border="0"></a>
+    	</div>
+			
+			<div id="contact-wrap">
+				<div id="contato">
+		      <div id="titulo_contato">
+		        Loja Física <br>
+		        <b>Shopping Iguatemi</b>
+		      </div>
+		      <div id="texto_contato">
+		        Av. Iguatemi, 777 <br>
+		        Vila Brandina <br> 
+		        Campinas - SP | CEP: 13092-902 <br>
+		        0800 770 0000<br>
+		        Telefone: +55 19 3704-0000<br>
+		        <br>
+		        <a href="mailto:figurestore@gmail.com">figurestore@gmail.com</a>     
+		      </div>        
+	    	</div>
+				<div id="bg_mapa">
+	      	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14702.255041047774!2d-47.027379!3d-22.892568!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x80b241bf72316bf7!2sIguatemi+Campinas!5e0!3m2!1spt-BR!2sbr!4v1496948306450" width="100%" height="295" frameborder="0" style="border:0" allowfullscreen></iframe>
+	    	</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div id="row-footer">
+			<div class="container">
+				<div id="copyright">
+					<strong>Figure Store. ©</strong> - Todos os direitos reservados.
+				</div>
+				<div id="assinatura">
+					<b>Webdesigner e Desenvolvedor:</b> Felipe Oliveira
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<p class="back_top"></p>
+
+	<!-- SLIDE-SHOW -->
+	<script>
+		jQuery(function($) {
+			$('.slider').delay(1000);
+			$('.slider').sss();
+		});
+	</script>
+
+	<!-- Scroll top -->
+	<script>
+		//Conferir se o top está em 0
+		$('.back_top').hide();
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 100) {
+				$('.back_top').fadeIn();
+			} else {
+				$('.back_top').fadeOut();
+			}
+		});
+		
+		//Scroll para o inicio da pagina
+		$('.back_top').click(function(){
+			$('html, body').animate({scrollTop : 0},900);
+			return false;
+	});
+
+		//Menubar toggle class active
+		$('#menu a').on('click', function() {
+			$('a').removeClass('active');
+			$(this).addClass('active');
+		});
+	</script>
+
+</body>
+</html>
